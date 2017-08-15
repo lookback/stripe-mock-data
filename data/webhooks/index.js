@@ -18,6 +18,6 @@ versions.forEach(function (version) {
 
   // Import version hooks
   hooks.forEach(function (hook) {
-    exports[version][hook.replace('_', '.')] = require('./' + version + '/' + hook + '.json')
+    exports[version][hook] = require('./' + version + '/' + hook + '.json')
   })
 })
