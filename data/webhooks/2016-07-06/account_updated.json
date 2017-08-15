@@ -1,0 +1,134 @@
+{
+  "id": "evt_000000000000000000000000",
+  "object": "event",
+  "api_version": "2016-07-06",
+  "type": "",
+  "created": 1502800684,
+  "livemode": true,
+  "pending_webhooks": 0,
+  "request": null,
+  "data": {
+    "object": {
+      "id": "acct_0000000000000000",
+      "object": "account",
+      "business_logo": null,
+      "business_name": "Lookback",
+      "business_primary_color": "#00AAF5",
+      "business_url": "http://lookback.io",
+      "charges_enabled": true,
+      "country": "US",
+      "debit_negative_balances": true,
+      "decline_charge_on": {
+        "avs_failure": false,
+        "cvc_failure": true
+      },
+      "default_currency": "usd",
+      "details_submitted": true,
+      "display_name": "lookback",
+      "email": "test@lookback.io",
+      "external_accounts": {
+        "object": "list",
+        "data": [
+          {
+            "id": "ba_000000000000000000000000",
+            "object": "bank_account",
+            "account": "acct_0000000000000000",
+            "account_holder_name": null,
+            "account_holder_type": null,
+            "bank_name": "JPMORGAN CHASE",
+            "country": "US",
+            "currency": "usd",
+            "default_for_currency": true,
+            "fingerprint": "0000000000000000",
+            "last4": "0000",
+            "metadata": {
+            },
+            "routing_number": "000000000",
+            "status": "new"
+          }
+        ],
+        "has_more": false,
+        "total_count": 1,
+        "url": "/v1/accounts/acct_0000000000000000/external_accounts"
+      },
+      "legal_entity": {
+        "additional_owners": [
+
+        ],
+        "address": {
+          "city": "San Francisco",
+          "country": "US",
+          "line1": "44 Tehama St",
+          "line2": null,
+          "postal_code": "94105",
+          "state": "CA"
+        },
+        "business_name": "Lookback Group, Inc",
+        "business_tax_id_provided": true,
+        "dob": {
+          "day": 9,
+          "month": 3,
+          "year": 1985
+        },
+        "first_name": "Test",
+        "last_name": "McTest",
+        "personal_address": {
+          "city": null,
+          "country": "US",
+          "line1": null,
+          "line2": null,
+          "postal_code": null,
+          "state": null
+        },
+        "personal_id_number_provided": true,
+        "ssn_last_4_provided": true,
+        "type": "company",
+        "verification": {
+          "details": null,
+          "details_code": null,
+          "document": null,
+          "status": "verified"
+        }
+      },
+      "metadata": {
+      },
+      "payout_schedule": {
+        "delay_days": 2,
+        "interval": "daily"
+      },
+      "payout_statement_descriptor": null,
+      "payouts_enabled": true,
+      "product_description": "We sell software and online services for user experience research. Our main customers are iOS and Android app developers. Customers choose a plan (with more expensive plans giving the customer access to more features), and are then charged monthly, using a standard Stripe subscription.",
+      "statement_descriptor": "LOOKBACK INC.",
+      "support_address": {
+        "city": "Menlo Park",
+        "country": "US",
+        "line1": "68 Willow Rd",
+        "line2": null,
+        "postal_code": "94025",
+        "state": "CA"
+      },
+      "support_email": "billing@lookback.io",
+      "support_phone": "",
+      "support_url": "https://lookback.io/support",
+      "timezone": "America/Los_Angeles",
+      "tos_acceptance": {
+        "date": 1471888867,
+        "iovation_blackbox": "0000",
+        "ip": "000.000.000.000",
+        "user_agent": null
+      },
+      "type": "standard",
+      "verification": {
+        "disabled_reason": null,
+        "due_by": null,
+        "fields_needed": [
+
+        ]
+      }
+    },
+    "previous_attributes": {
+      
+    }
+  }
+}

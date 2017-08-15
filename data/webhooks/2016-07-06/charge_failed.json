@@ -1,0 +1,89 @@
+{
+  "id": "evt_000000000000000000000000",
+  "object": "event",
+  "api_version": "2016-07-06",
+  "created": 1502721418,
+  "data": {
+    "object": {
+      "id": "ch_000000000000000000000000",
+      "object": "charge",
+      "amount": 2900,
+      "amount_refunded": 0,
+      "application": null,
+      "application_fee": null,
+      "balance_transaction": null,
+      "captured": false,
+      "created": 1502721416,
+      "currency": "usd",
+      "customer": "cus_00000000000000",
+      "description": null,
+      "destination": null,
+      "dispute": null,
+      "failure_code": "card_declined",
+      "failure_message": "Your card was declined.",
+      "fraud_details": {
+      },
+      "invoice": "in_000000000000000000000000",
+      "livemode": true,
+      "metadata": {
+      },
+      "on_behalf_of": null,
+      "order": null,
+      "outcome": {
+        "network_status": "declined_by_network",
+        "reason": "do_not_honor",
+        "risk_level": "normal",
+        "seller_message": "The bank returned the decline code `do_not_honor`.",
+        "type": "issuer_declined"
+      },
+      "paid": false,
+      "receipt_email": "test@lookback.io",
+      "receipt_number": null,
+      "refunded": false,
+      "refunds": {
+        "object": "list",
+        "data": [
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/charges/ch_000000000000000000000000/refunds"
+      },
+      "review": null,
+      "shipping": null,
+      "source": {
+        "id": "card_000000000000000000000000",
+        "object": "card",
+        "address_city": "Washington",
+        "address_country": "United States",
+        "address_line1": "24 Fake st",
+        "address_line1_check": "pass",
+        "address_line2": null,
+        "address_state": "DC",
+        "address_zip": "20036",
+        "address_zip_check": "pass",
+        "brand": "Visa",
+        "country": "US",
+        "customer": "cus_00000000000000",
+        "cvc_check": null,
+        "dynamic_last4": null,
+        "exp_month": 8,
+        "exp_year": 2018,
+        "fingerprint": "0000000000000000",
+        "funding": "debit",
+        "last4": "2734",
+        "metadata": {
+        },
+        "name": "Testy McTestface",
+        "tokenization_method": null
+      },
+      "source_transfer": null,
+      "statement_descriptor": "Lookback Standard",
+      "status": "failed",
+      "transfer_group": null
+    }
+  },
+  "livemode": true,
+  "pending_webhooks": 0,
+  "request": null,
+  "type": "charge.failed"
+}

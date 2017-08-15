@@ -29,6 +29,7 @@ $ npm install stripe-mock-data --save-dev
 - [`2014-11-05`](data/webhooks/2014-11-05)
 - [`2015-04-07`](data/webhooks/2015-04-07)
 - [`2015-10-01`](data/webhooks/2015-10-01)
+- [`2016-07-06`](data/webhooks/2016-07-06)
 
 Don't see your version? [Open an issue](https://github.com/Nijikokun/stripe-mock-data/issues/new), or start a pull request by forking.
 

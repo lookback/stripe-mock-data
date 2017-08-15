@@ -1,0 +1,112 @@
+{
+  "id": "evt_000000000000000000000000",
+  "object": "event",
+  "api_version": "2016-07-06",
+  "created": 1502699397,
+  "data": {
+    "object": {
+      "id": "ch_000000000000000000000000",
+      "object": "charge",
+      "amount": 2900,
+      "amount_refunded": 2900,
+      "application": null,
+      "application_fee": null,
+      "balance_transaction": "txn_000000000000000000000000",
+      "captured": true,
+      "created": 1502565740,
+      "currency": "usd",
+      "customer": "cus_00000000000000",
+      "description": null,
+      "destination": null,
+      "dispute": null,
+      "failure_code": null,
+      "failure_message": null,
+      "fraud_details": {
+      },
+      "invoice": "in_000000000000000000000000",
+      "livemode": true,
+      "metadata": {
+      },
+      "on_behalf_of": null,
+      "order": null,
+      "outcome": {
+        "network_status": "approved_by_network",
+        "reason": null,
+        "risk_level": "normal",
+        "seller_message": "Payment complete.",
+        "type": "authorized"
+      },
+      "paid": true,
+      "receipt_email": "test@lookback.io",
+      "receipt_number": "0000-0000",
+      "refunded": true,
+      "refunds": {
+        "object": "list",
+        "data": [
+          {
+            "id": "re_000000000000000000000000",
+            "object": "refund",
+            "amount": 2900,
+            "balance_transaction": "txn_000000000000000000000000",
+            "charge": "ch_000000000000000000000000",
+            "created": 1502699397,
+            "currency": "usd",
+            "metadata": {
+            },
+            "reason": null,
+            "receipt_number": "0000-0000",
+            "status": "succeeded"
+          }
+        ],
+        "has_more": false,
+        "total_count": 1,
+        "url": "/v1/charges/ch_000000000000000000000000/refunds"
+      },
+      "review": null,
+      "shipping": null,
+      "source": {
+        "id": "card_000000000000000000000000",
+        "object": "card",
+        "address_city": "San Francisco",
+        "address_country": "United States",
+        "address_line1": "21 Jump St",
+        "address_line1_check": "fail",
+        "address_line2": null,
+        "address_state": "CA",
+        "address_zip": "94102",
+        "address_zip_check": "pass",
+        "brand": "MasterCard",
+        "country": "US",
+        "customer": "cus_00000000000000",
+        "cvc_check": null,
+        "dynamic_last4": null,
+        "exp_month": 3,
+        "exp_year": 2018,
+        "fingerprint": "0000000000000000",
+        "funding": "credit",
+        "last4": "0000",
+        "metadata": {
+        },
+        "name": "Testy McTestface",
+        "tokenization_method": null
+      },
+      "source_transfer": null,
+      "statement_descriptor": "Lookback Standard",
+      "status": "succeeded",
+      "transfer_group": null
+    },
+    "previous_attributes": {
+      "amount_refunded": 0,
+      "refunded": false,
+      "refunds": {
+        "data": [
+        ],
+        "total_count": 0
+      }
+    }
+  },
+  "livemode": true,
+  "pending_webhooks": 4,
+  "request": null,
+  "type": "charge.refunded"
+}

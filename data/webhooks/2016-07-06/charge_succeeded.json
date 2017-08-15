@@ -1,0 +1,89 @@
+{
+  "id": "evt_000000000000000000000000",
+  "object": "event",
+  "api_version": "2016-07-06",
+  "created": 1502798423,
+  "data": {
+    "object": {
+      "id": "ch_000000000000000000000000",
+      "object": "charge",
+      "amount": 2900,
+      "amount_refunded": 0,
+      "application": null,
+      "application_fee": null,
+      "balance_transaction": "txn_000000000000000000000000",
+      "captured": true,
+      "created": 1502798420,
+      "currency": "usd",
+      "customer": "cus_00000000000000",
+      "description": null,
+      "destination": null,
+      "dispute": null,
+      "failure_code": null,
+      "failure_message": null,
+      "fraud_details": {
+      },
+      "invoice": "in_000000000000000000000000",
+      "livemode": true,
+      "metadata": {
+      },
+      "on_behalf_of": null,
+      "order": null,
+      "outcome": {
+        "network_status": "approved_by_network",
+        "reason": null,
+        "risk_level": "normal",
+        "seller_message": "Payment complete.",
+        "type": "authorized"
+      },
+      "paid": true,
+      "receipt_email": "test@lookback.io",
+      "receipt_number": "0000-0000",
+      "refunded": false,
+      "refunds": {
+        "object": "list",
+        "data": [
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/charges/ch_000000000000000000000000/refunds"
+      },
+      "review": null,
+      "shipping": null,
+      "source": {
+        "id": "card_000000000000000000000000",
+        "object": "card",
+        "address_city": "HO CHI MINH",
+        "address_country": "Vietnam",
+        "address_line1": "21 Jump st",
+        "address_line1_check": "unavailable",
+        "address_line2": null,
+        "address_state": null,
+        "address_zip": "70000",
+        "address_zip_check": "unavailable",
+        "brand": "Visa",
+        "country": "VN",
+        "customer": "cus_00000000000000",
+        "cvc_check": null,
+        "dynamic_last4": null,
+        "exp_month": 4,
+        "exp_year": 2020,
+        "fingerprint": "0000000000000000",
+        "funding": "credit",
+        "last4": "0000",
+        "metadata": {
+        },
+        "name": "Testy McTestface",
+        "tokenization_method": null
+      },
+      "source_transfer": null,
+      "statement_descriptor": "Lookback Standard",
+      "status": "succeeded",
+      "transfer_group": null
+    }
+  },
+  "livemode": true,
+  "pending_webhooks": 1,
+  "request": null,
+  "type": "charge.succeeded"
+}

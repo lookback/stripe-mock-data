@@ -1,0 +1,38 @@
+{
+  "id": "evt_000000000000000000000000",
+  "object": "event",
+  "api_version": "2016-07-06",
+  "created": 1502734240,
+  "data": {
+    "object": {
+      "id": "card_000000000000000000000000",
+      "object": "card",
+      "address_city": "Washington",
+      "address_country": "United States",
+      "address_line1": "24 Fake st",
+      "address_line1_check": "pass",
+      "address_line2": null,
+      "address_state": "DC",
+      "address_zip": "20036",
+      "address_zip_check": "pass",
+      "brand": "Visa",
+      "country": "CA",
+      "customer": "cus_00000000000000",
+      "cvc_check": "pass",
+      "dynamic_last4": null,
+      "exp_month": 9,
+      "exp_year": 2020,
+      "fingerprint": "0000000000000000",
+      "funding": "credit",
+      "last4": "0000",
+      "metadata": {
+      },
+      "name": "Testy McTestface",
+      "tokenization_method": null
+    }
+  },
+  "livemode": true,
+  "pending_webhooks": 1,
+  "request": null,
+  "type": "customer.source.deleted"
+}
