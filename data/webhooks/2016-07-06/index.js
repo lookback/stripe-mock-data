@@ -4,7 +4,6 @@ module.exports = [
   "charge_failed",
   "charge_refunded",
   "charge_succeeded",
-  "charge_updated",
   "customer_source_created",
   "customer_source_deleted",
   "customer_source_updated",
