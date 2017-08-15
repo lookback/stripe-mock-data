@@ -31,6 +31,8 @@ $ npm install stripe-mock-data --save-dev
 - [`2015-10-01`](data/webhooks/2015-10-01)
 - [`2016-07-06`](data/webhooks/2016-07-06)
 
+Note: Starting with version `2016-07-06`, webhook filenames use '.' not '_' as a namespace separator, to be consistent with Stripe's actual nomenclature, e.g. `customer.subscription.created` not `customer_subscription_created`. '_' is still used as word separator in the same namespace, e.g. `invoice.payment_succeeded`, as per in Stripe's API docs. Older API versions still use `customer_subscription_created`.
+
 Don't see your version? [Open an issue](https://github.com/Nijikokun/stripe-mock-data/issues/new), or start a pull request by forking.
 
 ## Usage

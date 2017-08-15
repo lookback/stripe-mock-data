@@ -1,13 +1,13 @@
 module.exports = [
-  "account_updated",
-  "balance_available",
-  "charge_failed",
-  "charge_refunded",
-  "charge_succeeded",
-  "customer_source_created",
-  "customer_source_deleted",
-  "customer_source_updated",
-  "customer_subscription_created",
-  "customer_subscription_deleted",
-  "customer_subscription_updated"
+  "account.updated",
+  "balance.available",
+  "charge.failed",
+  "charge.refunded",
+  "charge.succeeded",
+  "customer.source.created",
+  "customer.source.deleted",
+  "customer.source.updated",
+  "customer.subscription.created",
+  "customer.subscription.deleted",
+  "customer.subscription.updated"
 ]
