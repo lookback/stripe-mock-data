@@ -1,0 +1,83 @@
+{
+  "id": "evt_000000000000000000000000",
+  "object": "event",
+  "api_version": "2016-07-06",
+  "created": 1502813805,
+  "data": {
+    "object": {
+      "id": "sub_00000000000000",
+      "object": "subscription",
+      "application_fee_percent": null,
+      "billing": "charge_automatically",
+      "cancel_at_period_end": false,
+      "canceled_at": null,
+      "created": 1501863370,
+      "current_period_end": 1503072970,
+      "current_period_start": 1501863370,
+      "customer": "cus_00000000000000",
+      "discount": null,
+      "ended_at": null,
+      "items": {
+        "object": "list",
+        "data": [
+          {
+            "id": "si_000000000000000000000000",
+            "object": "subscription_item",
+            "created": 1501863371,
+            "metadata": {
+            },
+            "plan": {
+              "id": "standard_monthly_v1",
+              "object": "plan",
+              "amount": 2900,
+              "created": 1472678099,
+              "currency": "usd",
+              "interval": "month",
+              "interval_count": 1,
+              "livemode": true,
+              "metadata": {
+                "available_for_purchase": "1"
+              },
+              "name": "Standard",
+              "statement_descriptor": "Lookback Standard",
+              "trial_period_days": 14
+            },
+            "quantity": 1
+          }
+        ],
+        "has_more": false,
+        "total_count": 1,
+        "url": "/v1/subscription_items?subscription=sub_00000000000000"
+      },
+      "livemode": true,
+      "metadata": {
+      },
+      "plan": {
+        "id": "standard_monthly_v1",
+        "object": "plan",
+        "amount": 2900,
+        "created": 1472678099,
+        "currency": "usd",
+        "interval": "month",
+        "interval_count": 1,
+        "livemode": true,
+        "metadata": {
+          "available_for_purchase": "1"
+        },
+        "name": "Standard",
+        "statement_descriptor": "Lookback Standard",
+        "trial_period_days": 14
+      },
+      "quantity": 1,
+      "start": 1501863370,
+      "status": "trialing",
+      "tax_percent": null,
+      "trial_end": 1503072970,
+      "trial_start": 1501863370
+    }
+  },
+  "livemode": true,
+  "pending_webhooks": 4,
+  "request": null,
+  "type": "customer.subscription.trial_will_end"
+}

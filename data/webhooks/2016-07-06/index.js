@@ -4,10 +4,17 @@ module.exports = [
   "charge.failed",
   "charge.refunded",
   "charge.succeeded",
+  "customer.created",
+  "customer.deleted",
   "customer.source.created",
   "customer.source.deleted",
   "customer.source.updated",
   "customer.subscription.created",
   "customer.subscription.deleted",
-  "customer.subscription.updated"
+  "customer.subscription.trial_will_end",
+  "customer.subscription.updated",
+  "customer.updated",
+  "invoice.created",
+  "invoice.payment_failed",
+  "invoice.payment_succeeded"
 ]

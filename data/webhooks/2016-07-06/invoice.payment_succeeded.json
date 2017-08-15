@@ -1,0 +1,114 @@
+{
+  "id": "evt_000000000000000000000000",
+  "object": "event",
+  "api_version": "2016-07-06",
+  "created": 1502814264,
+  "data": {
+    "object": {
+      "id": "in_000000000000000000000000",
+      "object": "invoice",
+      "amount_due": 2900,
+      "application_fee": null,
+      "attempt_count": 1,
+      "attempted": true,
+      "billing": "charge_automatically",
+      "charge": "ch_000000000000000000000000",
+      "closed": true,
+      "currency": "usd",
+      "customer": "cus_00000000000000",
+      "date": 1502810344,
+      "description": null,
+      "discount": null,
+      "ending_balance": 0,
+      "forgiven": false,
+      "lines": {
+        "object": "list",
+        "data": [
+          {
+            "id": "ii_000000000000000000000000",
+            "object": "line_item",
+            "amount": 0,
+            "currency": "usd",
+            "description": "Sales Tax",
+            "discountable": false,
+            "livemode": true,
+            "metadata": {
+              "Tax_Calculated": "0",
+              "Invoice_Total": "2900",
+              "Is_AvaTax_Line": "true"
+            },
+            "period": {
+              "start": 1502810354,
+              "end": 1502810354
+            },
+            "plan": null,
+            "proration": false,
+            "quantity": null,
+            "subscription": null,
+            "type": "invoiceitem"
+          },
+          {
+            "id": "sub_00000000000000",
+            "object": "line_item",
+            "amount": 2900,
+            "currency": "usd",
+            "description": null,
+            "discountable": true,
+            "livemode": true,
+            "metadata": {
+            },
+            "period": {
+              "start": 1502809877,
+              "end": 1505488277
+            },
+            "plan": {
+              "id": "standard_monthly_v1",
+              "object": "plan",
+              "amount": 2900,
+              "created": 1472678099,
+              "currency": "usd",
+              "interval": "month",
+              "interval_count": 1,
+              "livemode": true,
+              "metadata": {
+                "available_for_purchase": "1"
+              },
+              "name": "Standard",
+              "statement_descriptor": "Lookback Standard",
+              "trial_period_days": 14
+            },
+            "proration": false,
+            "quantity": 1,
+            "subscription": null,
+            "subscription_item": "si_000000000000000000000000",
+            "type": "subscription"
+          }
+        ],
+        "has_more": false,
+        "total_count": 2,
+        "url": "/v1/invoices/in_000000000000000000000000/lines"
+      },
+      "livemode": true,
+      "metadata": {
+      },
+      "next_payment_attempt": null,
+      "number": "0000000000-0004",
+      "paid": true,
+      "period_end": 1502809877,
+      "period_start": 1500131477,
+      "receipt_number": "0000-0000",
+      "starting_balance": 0,
+      "statement_descriptor": null,
+      "subscription": "sub_00000000000000",
+      "subtotal": 2900,
+      "tax": null,
+      "tax_percent": null,
+      "total": 2900,
+      "webhooks_delivered_at": 1502810356
+    }
+  },
+  "livemode": true,
+  "pending_webhooks": 4,
+  "request": null,
+  "type": "invoice.payment_succeeded"
+}
