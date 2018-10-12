@@ -16,5 +16,9 @@ module.exports = [
   "customer.updated",
   "invoice.created",
   "invoice.payment_failed",
-  "invoice.payment_succeeded"
+  "invoice.payment_succeeded",
+  "invoice.upcoming",
+  "invoice.updated",
+  "invoiceitem.created",
+  "invoiceitem.updated"
 ]
